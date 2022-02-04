@@ -1,6 +1,6 @@
 [package]
-name = "chipioindustries/package_name_here"
-description = "package_description_here"
+name = "chipioindustries/signal"
+description = "A Signal implementation that doesn't make use of BindableEvents."
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"

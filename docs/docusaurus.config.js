@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PACKAGE_NAME_HERE',
-  tagline: 'TAGLINE_HERE',
-  url: 'https://chipioindustries.github.io/package_name_here',
+  title: 'Signal',
+  tagline: 'A Signal implementation that doesn't make use of BindableEvents.',
+  url: 'https://chipioindustries.github.io/signal',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -38,7 +38,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'PACKAGE_NAME_HERE',
+        title: 'Signal',
         logo: {
           alt: 'Site Logo',
           src: 'img/logo.png',
@@ -51,7 +51,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/chipioindustries/package_name_here',
+            href: 'https://github.com/chipioindustries/signal',
             label: 'GitHub',
             position: 'right',
           },

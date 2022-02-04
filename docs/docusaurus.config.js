@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Signal',
-  tagline: 'A Signal implementation that doesn't make use of BindableEvents.',
+  tagline: 'A Signal implementation that doesn\'t make use of BindableEvents.',
   url: 'https://chipioindustries.github.io/signal',
   baseUrl: '/',
   onBrokenLinks: 'throw',

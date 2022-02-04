@@ -6,21 +6,6 @@
 
 A Signal implementation that doesn't make use of BindableEvents.
 
-## SETTING UP REPOSITORY (REMOVE THIS)
-
-* Copy this repository's contents into a new repository
-* Find and replace all instances of the following terms:
-
-|Term|Replace with|
-|-|-|
-|chipioindustries|your github username|
-|signal|your package name|
-|Signal|your package name as it appears to users and as a Studio instance|
-|A Signal implementation that doesn't make use of BindableEvents.|your package description|
-|A Signal implementation that doesn't make use of BindableEvents.|your package tagline|
-
-* Copy the contents of your .wally/auth.toml file into a Github secret named "WALLY_AUTH"
-
 ## Installing with Wally
 
 * Add this line to your `wally.toml` file under `[dependencies]`:

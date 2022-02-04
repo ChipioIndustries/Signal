@@ -9,7 +9,7 @@ const config = {
   title: 'Signal',
   tagline: 'A Signal implementation that doesn\'t make use of BindableEvents.',
   url: 'https://chipioindustries.github.io/signal',
-  baseUrl: '/',
+  baseUrl: '/signal/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

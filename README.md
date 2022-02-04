@@ -11,7 +11,7 @@ A Signal implementation that doesn't make use of BindableEvents.
 * Add this line to your `wally.toml` file under `[dependencies]`:
 
 	```toml
-	Signal = "chipioindustries/signal@0.1.0"
+	Signal = "chipioindustries/signal@1.0.1"
 	```
 
 * Then run `wally install` to install the package.

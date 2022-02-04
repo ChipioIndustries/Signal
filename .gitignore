@@ -8,3 +8,6 @@
 
 # Foreman installation
 /.foreman-install
+
+# Selene Roblox library
+roblox.toml

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Installation
 
-Signal can be installed in several ways depending on your workflow.
+Signal can be installed using Wally, an open-source package manager for Roblox.
 
 ## Installing with Wally
 
@@ -15,13 +15,3 @@ Signal can be installed in several ways depending on your workflow.
 	```
 
 * Then run `wally install` to install the package.
-
-## Installing with Rojo
-
-* Download the `Packaged.zip` file from the [releases page](https://github.com/chipioindustries/signal/releases).
-* Unzip the file into the desired location in your project.
-
-## Installing with Roblox
-
-* Download the `rbxm` model file from the [releases page](https://github.com/chipioindustries/signal/releases).
-* Drag the model into Roblox Studio to add it to the game.

@@ -16,4 +16,4 @@ A Signal implementation that doesn't make use of BindableEvents.
 
 * Then run `wally install` to install the package.
 
-For more installation methods and usage instructions, see the [documentation](https://chipioindustries.github.io/signal).
+For usage instructions, see the [documentation](https://chipioindustries.github.io/signal).

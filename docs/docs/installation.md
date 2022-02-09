@@ -11,7 +11,7 @@ Signal can be installed using Wally, an open-source package manager for Roblox.
 * Add this line to your `wally.toml` file under `[dependencies]`:
 
 	```toml
-	Signal = "chipioindustries/signal@1.0.1"
+	Signal = "chipioindustries/signal@1.0.3"
 	```
 
 * Then run `wally install` to install the package.

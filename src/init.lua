@@ -16,7 +16,8 @@ Signal.__index = Signal
 
 function Signal.new()
 	local self = {
-		_callbacks = {}
+		_callbacks = {};
+		_lastResult = {};
 	}
 
 	setmetatable(self, Signal)
@@ -45,6 +46,15 @@ function Signal:fire(...)
 	for _, callback in pairs(self._callbacks) do
 		task.spawn(callback, ...)
 	end
+	self._lastResult = {...}
+end
+
+function Signal:wait()
+	local oldResult = self._lastResult
+	while self._lastResult == oldResult do
+		task.wait()
+	end
+	return unpack(self._lastResult)
 end
 
 return Signal

@@ -27,5 +27,26 @@ return function()
 
 			expect(result).to.equal(6)
 		end)
+
+		it("should wait for signal firing and provide arguments", function()
+			local signal = Signal.new()
+			local result1, result2
+
+			task.spawn(function()
+				result1, result2 = signal:wait()
+			end)
+
+			task.wait()
+
+			expect(result1).to.equal(nil)
+			expect(result2).to.equal(nil)
+
+			signal:fire("YEEHAW", true)
+
+			task.wait()
+
+			expect(result1).to.equal("YEEHAW")
+			expect(result2).to.equal(true)
+		end)
 	end)
 end

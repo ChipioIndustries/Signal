@@ -38,3 +38,7 @@ This function runs all of the Signal's connected callbacks. The callback will be
 |Type|Name|Default|Description|
 |-|-|-|-|
 |`Variant`|...||Any number of arguments to be passed to the callbacks.|
+
+## wait
+
+This function yields until the signal is fired and returns the arguments.

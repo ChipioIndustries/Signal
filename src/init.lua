@@ -22,8 +22,6 @@ function Signal.new()
 
 	setmetatable(self, Signal)
 
-	table.freeze(self)
-
 	return self
 end
 

@@ -18,6 +18,7 @@ local signal = Signal.new()
 |-|-|-|
 |[`Connection`](connection)|[`connect(function callback)`](#connect)|Connect the given function to the Signal.|
 |void|[`fire(...)`](#fire)|Run all connected callbacks, passing along any provided arguments.|
+|...|`wait()`|Yields until the signal is fired and returns the arguments.|
 
 ## connect
 

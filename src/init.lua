@@ -55,4 +55,7 @@ function Signal:wait()
 	return unpack(self._lastResult)
 end
 
+Signal.Connect = Signal.connect
+Signal.Wait = Signal.wait
+
 return Signal
